@@ -7,10 +7,10 @@ import React from 'react';
 export default function Todos() {
     
   return (
-    <div>
+    <div className='app'>
         {todolist.map(todo=>{
-            return <Todo key={todo.id} todo={todo} />
-        })};
+            return <Todo key={todo.id} todo={todo.task} />
+        })}
     </div>
   );
 };

@@ -2,8 +2,12 @@ import React from 'react'
 
 function Todo({todo}) {
   return (
-    <div>
-      {todo.task}
+    <div className='todo'>
+      <div className='task'>
+        <input type='checkbox' />
+        <p>{todo}</p>
+      </div>
+        <button>Delete</button>
     </div>
   )
 }
