@@ -10,10 +10,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(26, 12, 12);
+  background-color:#666666;
 }
 
 #root{
   width: 500px;
+  height: 90vh;
 }
 
